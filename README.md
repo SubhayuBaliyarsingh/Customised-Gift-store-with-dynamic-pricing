@@ -1,4 +1,3 @@
-# Customised-Gift-store-with-dynamic-pricing
 # Giftly - Personalized Gifts with Smart Pricing
 
 Giftly is a web application that allows users to create and customize personalized gifts with dynamic pricing based on selected options.
