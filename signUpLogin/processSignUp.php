@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($errors)) {
         $errorMessage = implode(", ", $errors);
         echo "<script>alert('Registration Error: " . $errorMessage . "');</script>";
-        echo "<script>setTimeout(function() { window.location.href = 'signup.html?error=" . urlencode($errorMessage) . "'; }, 1000);</script>";
+        echo "<script>setTimeout(function() { window.location.href = 'signup.php?error=" . urlencode($errorMessage) . "'; }, 1000);</script>";
         exit();
     }
     
@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         // Show error alert and redirect back to signup page
         echo "<script>alert('Registration failed: " . $conn->error . "');</script>";
-        echo "<script>setTimeout(function() { window.location.href = 'signup.html?error=Registration failed: " . urlencode($conn->error) . "'; }, 1000);</script>";
+        echo "<script>setTimeout(function() { window.location.href = 'signup.php?error=Registration failed: " . urlencode($conn->error) . "'; }, 1000);</script>";
     }
     
     $stmt->close();

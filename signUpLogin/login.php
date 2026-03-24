@@ -37,7 +37,7 @@ if (isset($_SESSION['user_id'])) {
                 <input type="password" name="password" placeholder="Password">
                 <a href="#">Forget Your Password?</a>
                 <button>Log In</button>
-                <p class="redirect-text">Don't have an account? <a href="signup.html">Sign Up</a></p>
+                <p class="redirect-text">Don't have an account? <a href="signup.php">Sign Up</a></p>
             </form>
         </div>
         <div class="toggle-container">
@@ -45,7 +45,7 @@ if (isset($_SESSION['user_id'])) {
                 <div class="toggle-panel toggle-right">
                     <h1>Welcome Back!</h1>
                     <p>Enter your personal details to use all of site features</p>
-                    <a href="signup.html"><button class="hidden">Sign Up</button></a>
+                    <a href="signup.php"><button class="hidden">Sign Up</button></a>
                 </div>
             </div>
         </div>
