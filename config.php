@@ -17,7 +17,7 @@ if ($is_localhost) {
     // Production Settings (InfinityFree)
     define('DB_SERVER', 'sql213.infinityfree.com');
     define('DB_USERNAME', 'if0_41464724');
-    define('DB_PASSWORD', 'Your_vPanel_Password_Here'); // Replace with your actual password!
+    define('DB_PASSWORD', 'Ljx9DxNAWhQz');
     define('DB_NAME', 'if0_41464724_giftly');
 }
 
