@@ -14,11 +14,11 @@ if ($is_localhost) {
     define('DB_PASSWORD', '');
     define('DB_NAME', 'customizedgift');
 } else {
-    // Production Settings (Update these when hosting on InfinityFree/000webhost)
-    define('DB_SERVER', 'your_production_host');     // e.g., sql301.infinityfree.com
-    define('DB_USERNAME', 'your_production_user');   // e.g., if0_12345678
-    define('DB_PASSWORD', 'your_production_password');
-    define('DB_NAME', 'your_production_db_name');    // e.g., if0_12345678_customizedgift
+    // Production Settings (InfinityFree)
+    define('DB_SERVER', 'sql213.infinityfree.com');
+    define('DB_USERNAME', 'if0_41464724');
+    define('DB_PASSWORD', 'Your_vPanel_Password_Here'); // Replace with your actual password!
+    define('DB_NAME', 'if0_41464724_giftly');
 }
 
 /**
